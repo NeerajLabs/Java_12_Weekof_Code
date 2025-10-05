@@ -1,0 +1,3 @@
+Today Is Day 1 of learning Java In 12 Weeks of Code
+
+What is Java
