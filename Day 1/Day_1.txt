@@ -1,3 +1,120 @@
 Today Is Day 1 of learning Java In 12 Weeks of Code
 
-What is Java
+today topics are
+java
+Quick Start
+syntax
+
+What is Java...?
+Java is a popular and powerful programming language, created in 1995.
+
+It is owned by Oracle, and more than 3 billion devices run Java.
+
+It is used for:
+
+Mobile applications (specially Android apps)
+Desktop applications
+Web applications
+Web servers and application servers
+Games
+Database connection
+And much, much more!
+Why Use Java?
+Java works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc.)
+It is one of the most popular programming languages in the world
+It has a large demand in the current job market
+It is easy to learn and simple to use
+It is open-source and free
+It is secure, fast and powerful
+It has huge community support (tens of millions of developers)
+Java is an object oriented language which gives a clear structure to programs and allows code to be reused, lowering development costs
+As Java is close to C++ and C#, it makes it easy for programmers to switch to Java or vice versa
+Java Example
+Java is often used in everyday programming tasks, like saying hello to a user:
+
+ExampleGet your own Java Server
+public class Main {
+  public static void main(String[] args) {
+    String name = "John";
+    System.out.println("Hello " + name);
+  }
+}
+
+Result:
+
+Hello John
+
+
+Java Quickstart..?
+In Java, every application begins with a class name, and that class must match the filename.
+
+Let's create our first Java file, called Main.java, which can be done in any text editor (like Notepad).
+
+The file should contain a "Hello World" message, which is written with the following code:
+
+Main.java
+public class Main {
+  public static void main(String[] args) {
+    System.out.println("Hello World");
+  }
+}
+
+Don't worry if you don't understand the code above - we will discuss it in detail in later chapters. For now, focus on how to run the code above.
+
+Save the code in Notepad as "Main.java". Open Command Prompt (cmd.exe), navigate to the directory where you saved your file, and type "javac Main.java":
+
+C:\Users\Your Name>javac Main.java
+This will compile your code. If there are no errors in the code, the command prompt will take you to the next line. Now, type "java Main" to run the file:
+
+C:\Users\Your Name>java Main
+The output should read:
+Hello World
+
+Java Syntax....?
+
+we created a Java file called Main.java, and we used the following code to print "Hello World" to the screen:
+
+ExampleGet your own Java Server
+Main.java
+public class Main {
+  public static void main(String[] args) {
+    System.out.println("Hello World");
+  }
+}
+
+Example explained
+Every line of code that runs in Java must be inside a class. The class name should always start with an uppercase first letter. In our example, we named the class Main.
+
+Note: Java is case-sensitive. MyClass and myclass would be treated as two completely different names.
+
+The name of the Java file must match the class name. So if your class is called Main, the file must be saved as Main.java. This is because Java uses the class name to find and run your code. If the names don't match, Java will give an error and the program will not run.
+
+When saving the file, save it using the class name and add .java to the end of the filename.
+
+
+The main Method
+The main() method is required in every Java program. It is where the program starts running:
+
+public static void main(String[] args)
+Any code placed inside the main() method will be executed.
+
+For now, you don't need to understand the keywords public, static, and void. You will learn about them later in this tutorial. Just remember: main() is the starting point of every Java program.
+
+System.out.println()
+Inside the main() method, we can use the println() method to print a line of text to the screen:
+
+Example
+public static void main(String[] args) {
+  System.out.println("Hello World");
+}
+
+Note: The curly braces {} mark the beginning and the end of a block of code.
+
+System.out.println() may look long, but you can think of it as a single command that means: "Send this text to the screen."
+
+Here's what each part means (you will learn the details later):
+
+System is a built-in Java class.
+out is a member of System, short for "output".
+println() is a method, short for "print line".
+Finally, remember that each Java statement must end with a semicolon (;)
